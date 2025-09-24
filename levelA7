@@ -1,0 +1,6 @@
+word = input("Введите слово: ")
+
+if "a" in word:
+    print("Буква a найдена.")
+else:
+    print("Нет буквы a.")

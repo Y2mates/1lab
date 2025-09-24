@@ -1,0 +1,6 @@
+password = input("Введите пароль: ")
+
+if len(password) >= 6:
+    print("Пароль принят.")
+else:
+    print("Ваш пароль слишком короткий.")

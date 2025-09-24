@@ -1,0 +1,9 @@
+a = 3545345
+
+print(type(a))
+if type(a) == str:
+    print("это строка")
+elif (type(a)) ==int:
+    print("это целочисленное число")
+elif (type(a)) ==float:
+    print("это вещественное число")
